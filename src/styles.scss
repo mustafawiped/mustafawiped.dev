@@ -1,1 +1,28 @@
-/* You can add global styles to this file, and also import other style files */
+// global colors
+$color-neutral-100: rgb(245 245 245);
+$color-neutral-200: rgb(229 229 229);
+$color-neutral-300: rgb(212 212 212);
+$color-neutral-400: rgb(163 163 163);
+$color-neutral-500: rgb(115 115 115);
+$color-neutral-600: rgb(82 82 82);
+$color-neutral-700: rgb(64 64 64);
+$color-neutral-800: rgb(38 38 38);
+$color-neutral-900: rgb(23 23 23);
+$color-neutral-950: rgb(10 10 10);
+
+@font-face {
+    font-family: "mustafawipedFont";
+    src: url("./assets/fonts/font-outfit.ttf");
+}
+
+body {
+    all: unset;
+    height: 100vh;
+    font-family: "mustafawipedFont";
+    display: flex;
+
+    // varsayılan herşeyi sıfırlıyoruz.
+    *{
+        all: unset;
+    }
+}
