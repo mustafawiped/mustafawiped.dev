@@ -10,4 +10,11 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'mustafawiped.dev';
+
+  /**
+   * ButtonClick
+   */
+  ButtonClick() {
+    console.log("ersincabuk")  
+  }
 }
